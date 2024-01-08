@@ -12,7 +12,8 @@ require_once __DIR__ . "/Models/Details.php";
 
 $Movies = [
     new Movie('Oppenheimer', new Cast('Christopher Nolan', 'Cillian Murphy', 'Robert Downey Jr.'), new Details('180 min', false, 4)),
-    new Movie('The Conjuring', new Cast('Michael Chaves, James Wan', 'Vera Farmiga', 'Patrick Wilson'), new Details('112 min', true, 4)),
+    new Movie('The Conjuring', new Cast('Michael Chaves, James Wan', 'Vera Farmiga, Patrick Wilson', 'Sterling Jerins'), new Details('112 min', true, 4)),
+    new Movie('Cast Away', new Cast('Robert Zemeckis', 'Tom Hanks', 'Helen Hunt'), new Details('143 min', false, 5))
 ];
 
 ?>
